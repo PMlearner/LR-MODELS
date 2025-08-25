@@ -49,7 +49,8 @@ class Linear_Regression_multifeature:
         # print("actual:",actual,"target:",target)
         loss=[self.x[i]*(actual-target) for i in range(self.features)]
         b=(actual-target)
-        self.loss+=loss
+        # self.loss+=loss
+        self.loss=[self.loss[i]+loss[i] for i in range(len(loss))]
         self.train_b+=b
     def gradient_update(self):
         self.w=[self.w[i]-self.lr*(2*self.loss[i]/self.n) for i in range(self.features)]

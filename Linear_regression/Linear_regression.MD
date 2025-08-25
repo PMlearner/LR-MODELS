@@ -6,7 +6,7 @@ LINEAR REGRESSION:
    How is it find the w based on loss:
    1.using y=wx+b---> find the output(y^)
 
-   2.Next we need to find the loss here so based on MSE(Mean Squared Error) its =1/n(sum of actual-target)**2
+   2.Next we need to find the loss here so based on MSE(Mean Squared Error) its =1/n(sum of (actual-target)**2)
 
 
    3.There step 2 we got loss,Loss just the error we didnt know which direction  loss happened for that we are using gradient
@@ -17,7 +17,7 @@ LINEAR REGRESSION:
 
    Loss Functions:
 
-   For regression we have certain functions we can you any one of those there some function perfoms well for the certain cases based on the data using this is giving a better results when Training Model
+   For regression we have certain functions we can use any one of those there some function perfoms well for the certain cases based on the data using this is giving a better results when Training Model
 
    MAE---1/n sum of |actual-target|(absolute mean it just mention the value not the distance also its non negative)
 
@@ -31,3 +31,5 @@ LINEAR REGRESSION:
     N Features:
     In each feature have certain w ,it will update independently one another last sum all the feature with common bias
     like y=w1*x1+w2*x2+b only​
+
+
