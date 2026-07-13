@@ -37,6 +37,14 @@ A word gets a higher weight if it appears often in a document **but not frequent
 - Document clustering  
 - Identifying important, topic-specific words  
 
+### ML Stuffs
+CloudWatch to track endpoint latency and invocation errors.
+
+CloudTrail to audit changes to AWS resources.
+
+SageMaker Model Monitor to detect data drift and model quality issues.
+
+X-Ray if requests pass through multiple services and you need trace-level debugging.
 ---
 
 What is Regularization?

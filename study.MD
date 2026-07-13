@@ -3,6 +3,7 @@ what are teh different multiagent architecture
 what are teh different Rag pipeline types or methods
 Why rnn fails,whats the minus in there
 What the bedrock items 
+types of chunking?
 Nlp techniques --->what is the different between bag of words and tf-idf
 Difference Between SymenticSearch and dot product
 
@@ -151,3 +152,9 @@ Docker, Kubernetes, and deployment.
 AWS ML services.
 
 LLM fine-tuning and GPU optimization.
+
+
+how did you optimize the pieline to utalize gpu efficiently 
+What is a hook in PyTorch?
+
+how to evaluvate and secure ml model in api and how to monitor datadrift in mlflow(aware framworks) and tackle it
