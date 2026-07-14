@@ -6,6 +6,7 @@ For L2 regularization:
 Loss=Prediction Error+λ∑w2
 
 
+
 types:
 L1(mae),l2(mse)
 Dropout
