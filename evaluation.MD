@@ -45,7 +45,8 @@ ML Evaluvation:
 
             F1 Score
 
-            ROC-AUC
+            Auc-Roc -How well the model can seperate the two classes
+
 
             PR-AUC (Precision-Recall AUC)
 
